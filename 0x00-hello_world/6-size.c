@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-*main - function main 
+*main - function main
 *
-*return: anly 0 
+*return: anly 0
 */
 
 int main(void)
