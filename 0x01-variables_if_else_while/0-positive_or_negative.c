@@ -5,6 +5,8 @@
 /**
  * main - this function to start program good
  *
+ * Description: print integer poditev or negtive
+ *
  * return : is  0 intrgere
  */
 
