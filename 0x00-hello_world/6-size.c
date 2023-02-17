@@ -3,7 +3,7 @@
 /**
  * main - function main
  *
- * Description: print some thing related to size.
+ * Description: n os print some thing related to size.
  * number char int
  *
  * return: anly 0
