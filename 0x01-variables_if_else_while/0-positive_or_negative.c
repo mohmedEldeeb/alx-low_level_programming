@@ -5,7 +5,7 @@
 /**
  * main - this function to start program good
  *
- * return : 0 intrgere
+ * return : is  0 intrgere
  */
 
 int main(void)
@@ -26,5 +26,6 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
+
 	return (0);
 }
