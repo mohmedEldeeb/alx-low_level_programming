@@ -2,7 +2,7 @@
 #include <time.h>
 
 /**
- * main - this function to start program
+ * main - this function to start program good
  *
  * return : 0 intrgere
  */
