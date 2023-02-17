@@ -4,7 +4,7 @@
 /**
  * main - this function main
  *
- * description : print some string
+ * description - print some string
  *
  * return : number 1
  */
