@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 /**
-* main - function main
-* Description: print some thing related to size
-*
-* return: anly 0
-*/
+ * main - function main
+ *
+ * Description: print some thing related to size.
+ * number char int
+ *
+ * return: anly 0
+ */
 
 int main(void)
 {
