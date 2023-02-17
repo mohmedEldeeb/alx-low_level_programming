@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - function main
+ * main - function main make some things like add print get mor detalse
  *
  * Description: n os print some thing related to size.
  * number char int
