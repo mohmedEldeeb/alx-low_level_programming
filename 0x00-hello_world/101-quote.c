@@ -4,9 +4,9 @@
 /**
  * main - this function main
  *
- * description - print some string
+ * Description: print some string
  *
- * return : number 1
+ * Return: number 1
  */
 
 int main(void)
