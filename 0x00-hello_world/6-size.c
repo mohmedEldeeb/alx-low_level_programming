@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
-*main - function main
+* main - function main
+* Description: print some thing related to size
 *
-*return: anly 0
+* return: anly 0
 */
 
 int main(void)
