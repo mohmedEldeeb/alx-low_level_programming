@@ -3,11 +3,9 @@
 #include <time.h>
 
 /**
- * main - this function to start program good
+ * main - Entry point
  *
- * Description: print integer poditev or negtive
- *
- * return : is  0 intrgere
+ * Return: Always 0 (Success)
  */
 
 int main(void)
