@@ -1,12 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - function main make some things like add print get mor detalse
+ * main - Entry point
  *
- * Description: n os print some thing related to size.
- * number char int
- *
- * return: anly 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
