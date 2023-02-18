@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - Entry point char
@@ -14,7 +12,7 @@ int main(void)
 
 	for (x = 0 ; x < 10 ; x++)
 		printf("%d", x);
-	printf('\n');
+	printf("\n");
 	return (0);
 
 }
