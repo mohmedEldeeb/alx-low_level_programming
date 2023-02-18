@@ -23,6 +23,7 @@ int main(void)
 			putchar(' ');
 		}
 	}
+	putchat(' ');
 
 	return (0);
 }
