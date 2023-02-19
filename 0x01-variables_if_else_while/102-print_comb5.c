@@ -30,7 +30,7 @@
  *                              putchar(' )
  *                              putchar(z)
  *                              putchar(i)
- *
+ *				hi
  *
  *
  */
