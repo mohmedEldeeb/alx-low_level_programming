@@ -55,7 +55,9 @@ int main(void)
 						putchar(z);
 						putchar(i);
 					if (x == '9'  && y == '8' && z == '9' && i == '9')
+					{
 						break;
+					}
 						putchar(',');
 						putchar(' ');
 					}
