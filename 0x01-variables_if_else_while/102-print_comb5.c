@@ -59,7 +59,7 @@ int main(void)
 						putchar(' ');
 						putchar(z);
 						putchar(i);
-						if ((x == '9') && (y == '9'))
+						if((x == '9') && (y == '8') && (z == '9') && (i =='9'))
                                         	{
                                                 	break;
                                         	}
