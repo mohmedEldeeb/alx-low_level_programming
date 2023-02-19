@@ -55,13 +55,14 @@ int main(void)
 					{
 						putchar(x);
                                                 putchar(y);
+					
+						putchar(' ');
+						putchar(z);
+						putchar(i);
 						if ((x == '9') && (y == '9'))
                                         	{
                                                 	break;
                                         	}
-						putchar(' ');
-						putchar(z);
-						putchar(i);
 						putchar(',');
 						putchar(' ');
 					}
