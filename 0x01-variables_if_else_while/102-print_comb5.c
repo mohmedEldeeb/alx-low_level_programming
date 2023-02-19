@@ -54,18 +54,14 @@ int main(void)
 						putchar(' ');
 						putchar(z);
 						putchar(i);
-						if ((x == '9') && (y == '8') && (z == '9') && (i == '9'))
-						{
-							break;
-						}
+					if (x == '9'  && y == '8' && z == '9' && i == '9')
+						break;
 						putchar(',');
 						putchar(' ');
 					}
-
 				}
 			}
 		}
-
 	}
 	putchar('\n');
 	return (0);
