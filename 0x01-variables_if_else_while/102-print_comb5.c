@@ -51,18 +51,14 @@ int main(void)
 				for (i = '0' ; i <= '9'; i++)
 				{
 					
-					if ((x != '9') && (y != '9'))
-					{
-						putchar(x);
-						putchar(y);	
-						break;
-						break;
-
-					} else {
-						break;
-					}
 					if( (x <= z )&& (y < i) )
 					{
+						putchar(x);
+                                                putchar(y);
+						if (x == '9') && (y == '9')
+                                        	{
+                                                	break;
+                                        	}
 						putchar(' ');
 						putchar(z);
 						putchar(i);
