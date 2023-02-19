@@ -51,7 +51,7 @@ int main(void)
 				for (i = '0' ; i <= '9'; i++)
 				{
 					
-					if( (x <= z )&& (z < i) )
+					if( (x <= z )&& (i + z) > (x y))
 					{
 						putchar(x);
                                                 putchar(y);
