@@ -18,7 +18,7 @@ int main(void)
 		d2 = 0;
 		for (d2 = '0' ; d2 <= '9' ; d2++)
 		{
-			if (d1 <  d2)
+			if (d2 <  d1)
 			{
 				putchar(d1);
 
