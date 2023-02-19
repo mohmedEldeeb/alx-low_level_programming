@@ -20,15 +20,15 @@ int main(void)
 		{
 			if (d1 <  d2)
 			{
-				putchar(d1 + 48);
+				putchar(d1);
 
-				putchar(d2 + 48);
+				putchar(d2);
 
 				putchar(' ');
 
-				putchar(d1 + 48);
+				putchar(d1);
 
-				putchar(d1 + 48);
+				putchar(d1);
 
 				if (d2 != '8' || d1 != '9')
 				{
