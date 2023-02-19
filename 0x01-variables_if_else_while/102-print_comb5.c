@@ -30,7 +30,7 @@ int main(void)
 
 				putchar(d2);
 
-				if (d2 != '8' || d2 != '9' && d1 != '9')
+				if (d2 != '8' || (d2 != '9' && d1 != '9'))
 				{
 					putchar(',');
 					putchar(' ');
