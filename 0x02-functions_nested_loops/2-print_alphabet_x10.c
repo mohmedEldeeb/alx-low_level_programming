@@ -1,14 +1,15 @@
 #include "main.h"
 
+
 /**
  * print_alphabet - function print char and one somethings
  *
  * return : aonly 0 all time
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	int x;
+	/*int x;
 	int numberx;
 
 	for (numberx = 0; numberx <= 9; x++)
@@ -19,6 +20,6 @@ void print_alphabet(void)
 		}
 
 		_putchar('\n');
-	}
+	}*/
 
 }
