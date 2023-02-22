@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet: function print char
+ * print_alphabet: function print char and one somethings
  *
  * return : aonly 0 all time
  */
