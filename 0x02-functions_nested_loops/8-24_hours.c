@@ -4,7 +4,6 @@
  * jack_bauer - return time in day
  *
  * Return: time number
- * 
  */
 
 
