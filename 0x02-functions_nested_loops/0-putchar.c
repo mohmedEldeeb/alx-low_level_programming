@@ -3,7 +3,7 @@
 /**
  * main - function return putchar
  *
- * return: mint 0 alows
+ * Return: mint 0 alows
  */
 
 int main(void)
