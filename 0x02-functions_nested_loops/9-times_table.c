@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  * times_table - function make time table
  *
@@ -10,31 +11,22 @@ void times_table(void)
 {
 	int x, y, z;
 
-	x = 0;
-
-	while (x < 10)
+	for (x = 0; x <= 9; ++x)
 	{
-		y = 1;
-
-		_putchar('48');
-		while (y < 10)
+		_putchar(48);
+		for (y = 1; y <= 9; ++y)
 		{
-
 			_putchar(',');
 			_putchar(' ');
-			z = x * y;
 
-			if (z <= 9)
-			{
+			z = x * y;
+			if (prod <= 9)
 				_putchar(' ');
-			} else
-			{
-				_putchar((z / 10) + '48');
-			}
-			_putchar((z % 10) + 48);
-			y++;
+			else
+				_putchar((prod / 10) + 48);
+
+			_putchar((prod % 10) + 48);
 		}
-		x++;
+		_putchar('\n');
 	}
 }
-
