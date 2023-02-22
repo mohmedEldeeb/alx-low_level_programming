@@ -3,7 +3,7 @@
 /**
  * _islower - function to check is  character is lowercase
  *
- * @c: prameter for function
+ * @c: First operand
  *
  * Return: returns 1 if `c` is lowercase
  *         otherwise always 0 (Success)
