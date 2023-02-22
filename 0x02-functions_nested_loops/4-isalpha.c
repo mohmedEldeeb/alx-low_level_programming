@@ -5,7 +5,7 @@
  *
  * @c: pram for function
  *
- * return: 0 alyws
+ * Return: this is return 0 value
  */
 
 
