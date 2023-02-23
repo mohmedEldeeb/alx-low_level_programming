@@ -11,6 +11,8 @@ int main(void)
 {
 	
 	int num;
+	long int x = 1, y = 2;
+	long int z;
 
 	for (num = 0; num < 50; num++)
 	{
@@ -20,6 +22,9 @@ int main(void)
 		else
 			printf(", ");
 
+		x = y;
+		y += z;
+		z = x;
 	}
 	return (0);
 }
