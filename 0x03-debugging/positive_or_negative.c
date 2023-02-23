@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include "main.h"
+#include"main.h"
 
 /**
  * postitive_or_negative - Entry point
@@ -9,13 +6,8 @@
  * Return: Always 0 (Success)
  */
 
-int postitive_or_negative(void)
+void positive_or_negative(int n)
 {
-	int n;
-
-	srand(time(0));
-
-	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
 	{
@@ -28,5 +20,4 @@ int postitive_or_negative(void)
 		printf("%d is negative\n", n);
 	}
 
-	return (0);
 }
