@@ -9,7 +9,6 @@
 
 int main(void)
 {
-	
 	int num;
 	long int x = 1, y = 0;
 	long int z;
