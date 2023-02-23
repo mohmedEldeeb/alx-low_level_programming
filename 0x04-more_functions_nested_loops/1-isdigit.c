@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _isdigit - function check number if from 1 to 9
  *
