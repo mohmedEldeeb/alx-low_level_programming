@@ -6,7 +6,7 @@
  * Return: mint 0 alows
  */
 
-int main(void)
+int _putchar(void)
 {
 
 	char x[] = "_putchar";
