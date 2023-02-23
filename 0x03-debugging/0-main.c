@@ -2,10 +2,8 @@
 
 /**
  * main - entry point function
- *
  * Return: 0 number
  */
-
 
 int main(void)
 {
