@@ -4,12 +4,12 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * postitive_or_negative - Entry point
  *
  * Return: Always 0 (Success)
  */
 
-int main(void)
+int postitive_or_negative(void)
 {
 	int n;
 
