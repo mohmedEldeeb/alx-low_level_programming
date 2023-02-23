@@ -3,6 +3,8 @@
 /**
  * _isdigit - function check number if from 1 to 9
  *
+ * @c: pram imt
+ *
  * Return: 1 if digit or 0 if alse
  */
 
