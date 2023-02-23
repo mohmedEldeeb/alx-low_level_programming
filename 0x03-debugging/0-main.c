@@ -11,7 +11,7 @@ int main(void)
 {
 	int num;
 	
-	num = 98;
+	num = 98 % 2;
 
 	positive_or_negative(num);
 
