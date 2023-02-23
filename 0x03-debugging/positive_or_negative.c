@@ -1,4 +1,4 @@
-#include"main.h"
+#include <stdio.h>
 
 /**
  * postitive_or_negative - Entry point
