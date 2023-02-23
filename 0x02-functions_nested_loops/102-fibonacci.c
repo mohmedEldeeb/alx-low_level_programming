@@ -16,7 +16,7 @@ int main(void)
 
 	for (num = 0; num < 50; num++)
 	{
-		printf("%d", num);
+		printf("%d", x);
 		if (num == 49)
 			printf("\n");
 		else
