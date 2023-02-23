@@ -24,7 +24,7 @@ int main(void)
 			total_sum += sum;
 		}
 		x = z;
-		z = x;
+		z = sum;
 	}
 
 	printf("%.0f\n", total_sum);
