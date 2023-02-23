@@ -11,20 +11,21 @@ int main(void)
 {
 	
 	int num;
-	long int x = 1, y = 2;
+	long int x = 1, y = 0;
 	long int z;
 
 	for (num = 0; num < 50; num++)
 	{
-		printf("%lu", x);
+		z = x + y;
+		printf("%lu", z);
+
 		if (num == 49)
 			printf("\n");
 		else
 			printf(", ");
 
-		x = y;
-		y += z;
-		z = x;
+		y = x;
+		x = z;
 	}
 	return (0);
 }
