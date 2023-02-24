@@ -16,9 +16,8 @@ void print_diagonal(int n)
 	{
 		for (x = 1; x <= n; ++x)
 		{
-			for (z = 1; z <= x; ++z)
-				if (x != 1)
-					_putchar(' ');
+			for (z = 1; z < x; ++z)
+				_putchar(' ');
 			_putchar(92);
 			_putchar('\n');
 		}
