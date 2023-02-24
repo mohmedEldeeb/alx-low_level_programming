@@ -2,6 +2,8 @@
 
 /**
  * main - function to print pizz or fizz interview qusion
+ *
+ * Return: 0 number
  */
 
 int main(void)
