@@ -17,7 +17,7 @@ void print_triangle(int size)
 	{
 		for (z = 1; z <= size; ++z)
 		{
-			for (x = 1; x <= x; ++x)
+			for (x = 1; x <= size; ++x)
 			{
 				if ((z + x) <= size)
 					_putchar(' ');
@@ -27,3 +27,4 @@ void print_triangle(int size)
 			_putchar('\n');
 		}
 	}
+}
