@@ -18,7 +18,7 @@ void more_numbers(void)
 				_putchar((y / 10) + 48);
 				num = y % 10;
 			}
-			_putchar(y + 48);
+			_putchar(num + 48);
 		}
 		_putchar('\n');
 	}
