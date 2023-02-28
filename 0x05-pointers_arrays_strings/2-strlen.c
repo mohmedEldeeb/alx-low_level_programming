@@ -3,7 +3,8 @@
 /**
  * _strlen - function get string length
  *
- * @c: any string
+ * @s: any string
+ * Return: number of tring
  */
 
 int _strlen(char *s)
