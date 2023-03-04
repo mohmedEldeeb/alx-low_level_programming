@@ -7,7 +7,7 @@
  * Return: str value
  */
 
-char *leet(char str*)
+char *leet(char *str)
 {
 	int x, y;
 	char s1[] = "aAeEoOtTlL";
