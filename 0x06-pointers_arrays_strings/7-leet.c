@@ -14,7 +14,7 @@ char *leet(char *str)
 	char s2[] = "4433007711";
 
 	x = 0;
-	w = 0;
+	y = 0;
 
 	while (str[x] != '\0')
 	{
