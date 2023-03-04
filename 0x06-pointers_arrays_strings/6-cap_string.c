@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * cap_string - function to captlauz
+ * cap_string - make Capitalizes all words of a string.
+ * @str: make The string to be capitalized.
  *
- * @str: string to captilze
- *
- * Rrtuen: char pointer
+ * Return: A pointer to the new  string.
  */
 
 char *cap_string(char *str)
