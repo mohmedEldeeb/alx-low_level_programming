@@ -7,7 +7,7 @@
  * @src: pram tow tack adres thing
  * @n: number to make something
  *
- * Return : char from somtiong
+ * Return: char from somtiong
  */
 
 char *_strncpy(char *dest, char *src, int n)
