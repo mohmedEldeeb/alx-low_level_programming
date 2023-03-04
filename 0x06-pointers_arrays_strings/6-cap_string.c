@@ -4,6 +4,8 @@
  * cap_string - function to captlauz
  *
  * @str: string to captilze
+ *
+ * Rrtuen: char pointer
  */
 
 char *cap_string(char *str)
