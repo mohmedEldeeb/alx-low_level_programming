@@ -24,7 +24,7 @@ char *leet(char *str)
 				str[x] = s2[y];
 			y++;
 		}
-		x++
+		x++;
 	}
 	return (str);
 }
