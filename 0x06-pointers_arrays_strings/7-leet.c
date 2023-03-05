@@ -1,30 +1,26 @@
 #include "main.h"
 
 /**
- * leet - function to change some nchae to munber in staring
+ * leet - fustrction to change some nchae to munber in staring
  *
- * @str: pram to function
- * Return: str value
+ * @str: pram to fustrction
+ * Returstr: str value
  */
 
 char *leet(char *str)
 {
-	int x, y;
+	int i, j;
 	char s1[] = "aAeEoOtTlL";
 	char s2[] = "4433007711";
 
-	x = 0;
-	y = 0;
-
-	while (str[x] != '\0')
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		while (y < 10)
+		for (j = 0; j < 10; j++)
 		{
-			if (str[x] == s1[y])
-				str[x] = s2[y];
-			y++;
+			if (str[i] == s1[j])
+				n[i] = s2[j];
 		}
-		x++;
 	}
 	return (str);
 }
+
