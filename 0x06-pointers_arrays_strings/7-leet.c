@@ -4,7 +4,7 @@
  * leet - fustrction to change some nchae to munber in staring
  *
  * @str: pram to fustrction
- * Returstr: str value
+ * Return: str value
  */
 
 char *leet(char *str)
