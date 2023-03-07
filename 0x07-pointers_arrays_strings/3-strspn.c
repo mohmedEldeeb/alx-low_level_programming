@@ -1,33 +1,28 @@
 #include "main.h"
 
 /**
- * _strspn - mabey gets the length of a prefix substring
- * @s: initial segment.
- * @accept: as you see accepted bytes.
- * Return: i thenk the number of accepted bytes.
+ * _strspn -  think it is gets the length of a prefix substring.
+ * @s: the goole initial segment.
+ * @accept: i can accepted bytes.
+ * Return: it is the number of accepted bytes.
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
-	int z , x, y;
+	unsigned int i, j, bool;
 
-	z = 0;
-	x = 0;
-	y = 0;
-
-	for (x = 0; s[x] != '\0'; x++)
+	for (i = 0; *(s + i) != '\0'; i++)
 	{
-		if (s[x] != 32)
+		bool = 1;
+		for (j = 0; *(accept + j) != '\0'; j++)
 		{
-			for (y = 0; accept[y] != '\0'; y++)
+			if (*(s + i) == *(accept + j))
 			{
-				if (s[x] == accept[y])
-					z++;
+				bool = 0;
+				break;
 			}
 		}
-		else
-			return (z);
+		if (bool == 1)
+			break;
 	}
-		return (z);
-
+	return (i);
 }
