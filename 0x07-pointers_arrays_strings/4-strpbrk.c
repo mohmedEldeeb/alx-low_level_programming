@@ -7,6 +7,7 @@
  *
  * Return: a pointer to byte
  */
+
 char *_strpbrk(char *s, char *accept)
 {
 	int i;
@@ -19,5 +20,5 @@ char *_strpbrk(char *s, char *accept)
 			}
 			s++;
 		}
-	return (NULL);
+	return ('\0');
 }
