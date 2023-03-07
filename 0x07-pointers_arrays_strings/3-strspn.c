@@ -1,11 +1,10 @@
+#include "main.h"
 
 /**
- * _strspn - function to commpier ottwen chre
- *
- * @s: refranct
- * @accept: scend pram to
- *
- * Return: number unsigned integer
+ * _strspn - mabey gets the length of a prefix substring
+ * @s: initial segment.
+ * @accept: as you see accepted bytes.
+ * Return: i thenk the number of accepted bytes.
  */
 
 unsigned int _strspn(char *s, char *accept)
