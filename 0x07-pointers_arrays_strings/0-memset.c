@@ -6,7 +6,7 @@
  * @b: ofcorse char we need
  * @n: bosteve number
  *
- * Return char new
+ * Return: char new
  */
 
 char *_memset(char *s, char b, unsigned int n)
