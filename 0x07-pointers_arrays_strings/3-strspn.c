@@ -1,4 +1,3 @@
-#include "main.h"
 
 /**
  * _strspn - function to commpier ottwen chre
