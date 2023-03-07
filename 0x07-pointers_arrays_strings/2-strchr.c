@@ -1,6 +1,6 @@
 
 /**
- * strchr - dunction string char
+ * _strchr - dunction string char
  *
  * @s: pram pounter to char
  * @c: char to pounter
