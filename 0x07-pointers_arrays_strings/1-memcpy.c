@@ -2,7 +2,7 @@
 /**
  * _memset - function return bounter to aray
  *
- * @deat: aray for new prt
+ * @dest: aray for new prt
  * @src: curent aray
  * @n: number fo item to copy
  *
