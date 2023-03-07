@@ -8,16 +8,17 @@
  * Return: for to this poinr=ter
  */
 
-
-
 char *_strchr(char *s, char c)
 {
 	while (*s)
 	{
 		if (*s != c)
+		{
 			s++;
-		else
+		} else
+		{
 			return (s);
+		}
 	}
 	if (c == '\0')
 		return (s);
