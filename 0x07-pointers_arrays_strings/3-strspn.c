@@ -1,4 +1,12 @@
 
+/**
+ * _strspn - function to commpier ottwen chre
+ *
+ * @s: refranct
+ * @accept: scend pram to
+ *
+ * Return: number unsigned integer
+ */
 
 unsigned int _strspn(char *s, char *accept)
 {
