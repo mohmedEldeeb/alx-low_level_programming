@@ -21,7 +21,7 @@ int find(int x, int z)
 	if (z == x / 2)
 		return (-1);
 
-	return (find_sqrt(x, z + 1));
+	return (find(x, z + 1));
 }
 
 /**
