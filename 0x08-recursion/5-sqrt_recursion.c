@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 int find(int num, int root);
 int _sqrt_recursion(int n);
