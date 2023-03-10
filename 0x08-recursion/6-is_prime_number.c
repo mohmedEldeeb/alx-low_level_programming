@@ -18,7 +18,7 @@ int get_prime(unsigned int n, unsigned int x)
 		else
 			return (0);
 	}
-	return (is_prime(n, x + 1));
+	return (0 + is_prime(n, x + 1));
 }
 
 /**
