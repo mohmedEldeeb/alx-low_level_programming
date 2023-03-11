@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 	x = atoi(argv[1]);
 	z = atoi(argv[2]);
 
-	printf("%d\n", x * y);
+	printf("%d\n", x * z);
 
 	return (0);
 }
