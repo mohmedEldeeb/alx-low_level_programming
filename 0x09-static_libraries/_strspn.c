@@ -3,10 +3,9 @@
  * _strspn - function
  *
  * @s: char prams
- * @sccept: prams
+ * @accept: prams
  * Return: integer
  */
-
 
 unsigned int _strspn(char *s, char *accept)
 {
