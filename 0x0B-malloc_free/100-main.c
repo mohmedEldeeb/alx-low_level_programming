@@ -20,13 +20,3 @@ int main(int ac, char *av[])
     free(s);
     return (0);
 }
-julien@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-main.c 100-argstostr.c -o args
-julien@ubuntu:~/0x0a. malloc, free$ ./args I will "show you" how great I am
-./args
-I
-will
-show you
-how
-great
-I
-am

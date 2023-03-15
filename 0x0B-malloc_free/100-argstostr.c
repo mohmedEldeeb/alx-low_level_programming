@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * argstoelem - return args
+ * argstostr - return args
  *
  * @ac: args count
  * @av: arguments
@@ -10,7 +10,7 @@
  * Return: pointer
  */
 
-char *argstoelem(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 
 	int i, j, k, length = 0;
