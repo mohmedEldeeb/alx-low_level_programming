@@ -1,23 +1,23 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
- * malloc_checked - function to return pounter or 98 if null
+ * malloc_checked - function return pointer or 98
  *
- * @b: lenth in momery
+ * @b: lengty mommer
  *
  * Return: pointer
  */
 
 void *malloc_checked(unsigned int b)
 {
-	void *x;
+	void *i;
 
-	x = malloc(b);
+	i = malloc(b);
 
-	if (x == NULL)
+	if (i == NULL)
 		exit(98);
 
-	return (x);
+	return (i);
 
 }
-
