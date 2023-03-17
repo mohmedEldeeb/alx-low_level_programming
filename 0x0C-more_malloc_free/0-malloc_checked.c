@@ -2,9 +2,8 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - function return pointer or 98
- *
- * @b: lengty mommer
+ * malloc_checked - function return malloc.
+ * @b: number of size.
  *
  * Return: pointer
  */
