@@ -1,22 +1,46 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
- * malloc_checked - function to return pounter or 98 if null
+ * string_nconcat - function maktion some thinh
  *
- * @b: lenth in momery
+ * @s1: first string.
  *
- * Return: pointer
+ * @s2: second string.
+ *
+ * @n: maximum number
+ *
+ * Return: new or null
+ *
  */
-
-void *malloc_checked(unsigned int b)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	void *x;
+	char *concat;
+	unsigned int len = n, index;
 
-	x = malloc(b);
+	if (s1 == NULL)
+		s1 = "";
 
-	if (x == NULL)
-		exit(98);
+	if (s2 == NULL)
+		s2 = "";
 
-	return (x);
+	for (index = 0; s1[index]; index++)
+		len++;
 
+	concat = malloc(sizeof(char) * (len + 1));
+
+	if (concat == NULL)
+		return (NULL);
+
+	len = 0;
+
+	for (index = 0; s1[index]; index++)
+		concat[len++] = s1[index];
+
+	for (index = 0; s2[index] && index < n; index++)
+		concat[len++] = s2[index];
+
+	concat[len] = '\0';
+
+	return (concat);
 }
