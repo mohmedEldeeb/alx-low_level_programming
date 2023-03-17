@@ -12,6 +12,8 @@ int check_for_digits(char **av);
 
 void init(char *str, int l);
 
+void *malloc_checked(unsigned int b);
+
 #include <stdio.h>
 
 #endif/*MAIN_H*/
