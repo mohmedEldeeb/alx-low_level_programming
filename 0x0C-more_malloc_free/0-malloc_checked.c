@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * malloc_checked - function to return pounter or 98 if null
  *
