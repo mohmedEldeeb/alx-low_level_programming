@@ -8,29 +8,28 @@
  * @n: number of prams
  * @...: sprit prams
  */
-
 void print_strings(const char *separator, const unsigned int n, ...)
 {
+	va_list strings;
 	char *str;
-	unsigned int i;
-	va_list x;
+	unsigned int index;
 
-	va_start(x, n);
+	va_start(strings, n);
 
-	if (separator == NULL)
-		separator = "";
-
-	for (i = 0; i < n; i++)
+	for (index = 0; index < n; index++)
 	{
-		str = va_arg(x, char*);
+		str = va_arg(strings, char *);
 
-		if (x == NULL)
-			str = "(nil)";
-		printf("%s", str);
+		if (str == NULL)
+			printf("(nil)");
+		else
+			printf("%s", str);
 
-		if (i < n - 1)
+		if (index != (n - 1) && separator != NULL)
 			printf("%s", separator);
 	}
+
 	printf("\n");
-	va_end(x);
+
+	va_end(strings);
 }
