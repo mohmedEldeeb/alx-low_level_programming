@@ -4,7 +4,6 @@
 
 /**
  * print_strings - function to Prints strings
- *
  * @separator: string to add sperattor
  * @n: number of prams
  */
