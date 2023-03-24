@@ -6,6 +6,7 @@
  * print_strings - function to Prints strings
  * @separator: string to add sperattor
  * @n: number of prams
+ * @...: sprit prams
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
@@ -15,15 +16,18 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_list x;
 
 	va_start(x, n);
+
 	if (separator == NULL)
 		separator = "";
 
 	for (i = 0; i < n; i++)
 	{
 		str = va_arg(x, char*);
+
 		if (x == NULL)
 			str = "(nil)";
 		printf("%s", str);
+
 		if (i < n - 1)
 			printf("%s", separator);
 	}
