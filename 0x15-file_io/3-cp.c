@@ -7,9 +7,7 @@ void close_file(int f_to_close);
 
 /**
  * create_buf - Allocates buffer.
- *
  * @file: file name
- *
  * Return: pointer to new buffer
  */
 
@@ -44,7 +42,8 @@ void close_file(int f_to_close)
 
 	if (c == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", f_to_close);
+		dprintf(STDERR_FILENO,
+			"Error: Can't close fd %d\n", f_to_close);
 
 		exit(100);
 	}
@@ -110,4 +109,5 @@ int main(int argc, char *argv[])
 	close_file(to);
 
 	return (0);
+
 }
