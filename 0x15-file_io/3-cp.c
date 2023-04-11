@@ -58,8 +58,7 @@ void close_file(int f_to_close)
  * @argc: The number of args
  * @argv: array of arguments
  *
- * Return: 0 
- *
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
