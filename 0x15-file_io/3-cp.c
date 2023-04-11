@@ -71,10 +71,10 @@ int main(int argc, char *argv[])
 		exit(97);
 	}
 
-	buffer = create_buf(argv[2]);
-	to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
+	buffer = create_buf(argv[2]);	
 	from = open(argv[1], O_RDONLY);
 	f_r = read(from, buffer, 1024);
+	to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
 
 	while (f_r > 0)
