@@ -6,7 +6,7 @@
  * @n: pointer to int
  * @index: index
  *
- * Return: 1 or 1
+ * Return: 0 or 1
  */
 
 int set_bit(unsigned long int *n, unsigned int index)

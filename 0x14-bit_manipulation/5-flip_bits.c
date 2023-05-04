@@ -4,7 +4,7 @@
  * flip_bits - returns flip tow number
  *
  * @n: number 1
- * @m: number 2
+ * @m: number
  *
  * Return: number
  */
