@@ -3,7 +3,7 @@
 /**
  * print_binary - prints binary
  *
- * @n: unsigned long int
+ * @n: unsigned long int dont lose
  *
  * Return: no
  */
