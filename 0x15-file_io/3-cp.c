@@ -7,7 +7,7 @@ char *create_buf(char *file);
 
 
 /**
- * close_file - Closes file
+ * close_file - to Closes file
  * @f_to_close: file to be closed.
  */
 
@@ -52,7 +52,7 @@ char *create_buf(char *file)
 
 
 /**
- * main - check code fore args student
+ * main - to check code fore args student
  *
  * @argc: number of args
  * @argv: array of arguments
