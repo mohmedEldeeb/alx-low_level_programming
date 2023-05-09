@@ -1,10 +1,10 @@
 #include <fcntl.h>
 #include <elf.h>
 #include <sys/stat.h>
-#include <stdio.h>
-#include <sys/types.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <unistd.h>
+#include <sys/types.h>
 
 
 void print_class(unsigned char *e_ident);
@@ -12,7 +12,7 @@ void print_version(unsigned char *e_ident);
 void check_elf(unsigned char *e_ident);
 void print_data(unsigned char *e_ident);
 void print_abi(unsigned char *e_ident);
-void print_type(unsigned int e_type, unsigned char *e_ident);
+void print_type(unsigned char *e_ident, unsigned int e_type);
 void print_magic(unsigned char *e_ident);
 void print_entry(unsigned long int e_entry, unsigned char *e_ident);
 void print_osabi(unsigned char *e_ident);
@@ -249,13 +249,13 @@ void print_osabi(unsigned char *e_ident)
 
 
 /**
- * print_type - Prints the type of ELF header
+ * print_type - to Prints the type of ELF header
  *
  * @e_type: ELF type
  * @e_ident: pointer to array containing ELF class
  */
 
-void print_type(unsigned int e_type, unsigned char *e_ident)
+void print_type(unsigned char *e_ident, unsigned int e_type)
 {
 	if (e_ident[EI_DATA] == ELFDATA2MSB)
 		e_type >>= 8;
@@ -286,7 +286,7 @@ void print_type(unsigned int e_type, unsigned char *e_ident)
 
 
 /**
- * print_abi - Prints the ABI of ELF header
+ * print_abi - to Prints the ABI of ELF header
  *
  * @e_ident: pointer to array containing ELF
  */
@@ -299,7 +299,7 @@ void print_abi(unsigned char *e_ident)
 
 
 /**
- * print_entry - Prints entry point of an ELF
+ * print_entry - to Prints entry point of an ELF
  *
  * @e_entry: address of the ELF entry point
  * @e_ident: pointer to array containing ELF
@@ -327,7 +327,7 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident)
 
 
 /**
- * close_elf - Closes ELF file
+ * close_elf - to Closes ELF file
  * @elf: file descriptor for ELF file
  */
 
