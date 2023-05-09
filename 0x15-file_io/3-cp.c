@@ -27,9 +27,9 @@ void close_file(int f_to_close)
 }
 /**
  * create_buf - Allocates buffer
-
+ *
  * @file: this is file name
-
+ *
  * Return: pointer to new buffer
  */
 
